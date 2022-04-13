@@ -160,11 +160,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-      console.log("Es positivo");
+      console.log('Es positivo');
   } else if (numero < 0){
-      console.log("Es negativo");
+      console.log('Es negativo');
   } else {
-      console.log("false");
+      console.log('false');
   }
 }
 
