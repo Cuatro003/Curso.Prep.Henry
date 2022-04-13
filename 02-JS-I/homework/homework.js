@@ -121,13 +121,15 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  console.log(Math.pow(num, 2));
+  numCua = num
+  console.log(Math.pow(numCua, 2));
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  console.log(Math.pow(num, 3));
+  numCu = num
+  console.log(Math.pow(numCu, 3));
 }
 
 function elevar(num, exponent) {
