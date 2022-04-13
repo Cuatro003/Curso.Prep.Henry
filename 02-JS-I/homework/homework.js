@@ -164,7 +164,8 @@ function esPositivo(numero) {
   } else if (numero < 0){
       console.log("Es negativo")
   } else {
-      console.log("False")
+      return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -264,4 +265,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-}
+};
