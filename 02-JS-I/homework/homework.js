@@ -161,7 +161,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero >= 1) {
     return console.log("Es positivo");
-  } else if (numero >= -1){
+  } else if (numero > 0){
     return console.log("Es negativo");
   } else {
     return false;
