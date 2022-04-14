@@ -9,10 +9,8 @@ function obtenerMayor(x, y) {
   // Tu código:
   if (x > y){
     return("X es mayor", x)
-  } else if (x < y) {
-    return("Y es mayor", y)
   } else {
-    return('Son sonIguales')
+    return("Y es mayor", y)
   }
 }
 
