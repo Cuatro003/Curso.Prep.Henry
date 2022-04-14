@@ -53,9 +53,7 @@ function saludo(idioma) {
     return('Ni hao!')
   } else (idioma == ingles){
     return('Hello!')
-  } else if{
-    return('Hola!')
-  }
+  } 
 }
 
 function colors(color) {
