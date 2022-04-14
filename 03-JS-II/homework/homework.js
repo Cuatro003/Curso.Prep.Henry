@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { sonIguales } = require("../../02-JS-I/homework/homework");
+
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
@@ -7,8 +9,10 @@ function obtenerMayor(x, y) {
   // Tu código:
   if (x > y){
     return("X es mayor", x)
-  } else {
+  } else if (x < y) {
     return("Y es mayor", y)
+  } else {
+    return('Son sonIguales')
   }
 }
 
