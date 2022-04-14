@@ -51,10 +51,13 @@ function saludo(idioma) {
     return('Guten tag!')
   } else if (idioma == mandarin){
     return('Ni hao!')
-  } else (idioma == ingles){
+  } else if(idioma == ingles){
     return('Hello!')
-  } 
-}
+  } else {
+    return('Hola')
+  }
+} 
+
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
