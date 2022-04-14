@@ -183,7 +183,7 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
   if (valor === true){
-    return 'Soy verdadero';
+    return 'Soy verdadero'
   } else{
     return 'Soy falso'
   }
@@ -194,7 +194,7 @@ function tablaDelSeis(seis){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var array = [];
-  
+}
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
