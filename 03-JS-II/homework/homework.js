@@ -195,7 +195,7 @@ function tablaDelSeis(seis){
   //Escribe tu código aquí   
   var array = [];
   for(var i = 0 ; 1 < 11 ; i++){
-    i * 6
+    i * 7
   }
 }
 
