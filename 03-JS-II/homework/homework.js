@@ -36,7 +36,7 @@ function conection(status) {
   } else if (status == 2){
     return('Away')
   } else {
-    console.log('Offline')
+    return('Offline')
   }
 }
 
