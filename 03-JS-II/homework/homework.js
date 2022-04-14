@@ -51,14 +51,14 @@ function saludo(idioma) {
   mandarin = 2
   ingles = 3
 
-  if (idioma == 1){
-    return('Guten tag!')
-  } else if (idioma == 2){
-    return('Ni hao!')
-  } else if(idioma == 3){
-    return('Hello!')
+  if (idioma == aleman){
+    console.log('Guten tag!')
+  } else if (idioma == mandarin){
+    console.log('Ni hao!')
+  } else if(idioma == ingles){
+    console.log('Hello!')
   } else {
-    return('Hola')
+    console.log('Hola!')
   }
 } 
 
