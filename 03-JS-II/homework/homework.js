@@ -136,7 +136,7 @@ function fizzBuzz(numero) {
   } else if (numero % 3 === 0 && numero % 5 === 0){
     return 'fizzbuzz'
   } else {
-    return numero;
+    return '' + numero;
   }
 }
 
