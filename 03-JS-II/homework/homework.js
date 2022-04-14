@@ -47,11 +47,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma == aleman){
+  aleman = 1
+  mandarin = 2
+  ingles = 3
+
+  if (idioma == 1){
     return('Guten tag!')
-  } else if (idioma == mandarin){
+  } else if (idioma == 2){
     return('Ni hao!')
-  } else if(idioma == ingles){
+  } else if(idioma == 3){
     return('Hello!')
   } else {
     return('Hola')
