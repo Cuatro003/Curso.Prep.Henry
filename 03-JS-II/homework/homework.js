@@ -90,11 +90,11 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero === 10){
-    return('true')
+    return true;
   } else if(numero === 5){
-    return ('true')
+    return true;
   } else{
-    return('false')
+    return false;
   }
 }
 
