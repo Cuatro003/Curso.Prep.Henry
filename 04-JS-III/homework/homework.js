@@ -79,10 +79,10 @@ function agregarNumeros(numeros) {
   // Tu código:
   let sumas = 0
   
-  for (lei i = 0; i < numeros.length ; i++){
+  for (let i = 0; i < numeros.length ; i++){
     sumas += array[i];
   }
-  return sumas
+  return sumas;
 }
 
 
