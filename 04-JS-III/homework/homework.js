@@ -120,7 +120,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí:
   var acumulador = 0;
   for (var i = 0; i < arreglo.lengt ; i++){
-    if (arreglo[i] > 18){
+    if (arreglo[i] >= 18){
     acumulador += 1
     }
   }
