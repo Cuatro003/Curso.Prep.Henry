@@ -96,6 +96,8 @@ function promedioResultadosTest(resultadosTest) {
   }
       return summ / arrayLen;
   }
+  var a = ArrayAvg(resultadosTest);
+  return a;
 }
 
 
