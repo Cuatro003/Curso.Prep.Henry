@@ -77,10 +77,11 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  if (numeros instanceof Array){
-     let suma = numero.reduce((totalSuma, numero) => totalSuma + numero);
-     return suma;
+  var acumulador = 0;
+  for(var i = 0; i < numeros.length ; i++){
+    acumulador += numeros[i]
   }
+  return acumulador;
   }
 
 
