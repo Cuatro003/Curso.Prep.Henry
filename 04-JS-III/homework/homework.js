@@ -79,7 +79,7 @@ function agregarNumeros(numeros) {
   // Tu código:
   var reductora = 0
   
-  return numeros.reduce(reductora, 0)
+  return numeros.reduce(numeros, 0)
 }
 
 
