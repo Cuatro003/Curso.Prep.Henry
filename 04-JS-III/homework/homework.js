@@ -77,7 +77,7 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var reductora 
+  var reductora = 0
   
   return numeros.reduce(reductora, 0)
 }
