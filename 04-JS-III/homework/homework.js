@@ -136,11 +136,17 @@ function cuentoElementos(arreglo){
 
 
 function diaDeLaSemana(numeroDeDia) {
+  // domingo 1| lunes 2| martes 3| miercoles 4| jueves 5| viernes 6| sabado 7|
+  //
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-  
+  if(numeroDeDia === 1 || numeroDeDia === 7){
+    return 'Es fin de semana'
+  }else if(numeroDeDia >1 && numeroDeDia < 7){
+    return 'Es dia laboral';
+  }
 } 
 
 
