@@ -59,6 +59,11 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var TodoJunto = []
+  for (let i = 0; i < palabras.length; i++){
+    TodoJunto.push(palabras.length[i]+'')
+  }
+  return TodoJunto;
 }
 
 
