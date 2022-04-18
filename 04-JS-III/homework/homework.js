@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { suma } = require("../../02-JS-I/homework/homework");
+
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
@@ -75,6 +77,12 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  let sumas = 0
+  
+  for (lei i = 0; i < numeros.length ; i++){
+    sumas += array[i];
+  }
+  return sumas
 }
 
 
