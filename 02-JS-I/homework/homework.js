@@ -36,7 +36,7 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   var suma = x + y
-  return suma
+  return suma;
 }
 
 function resta(x, y) {
@@ -64,7 +64,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {
+  if (x === y) {
     return true;
   }
   return false;
@@ -111,14 +111,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (num % 2) == 0;
+  return (num % 2) === 0;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (num % 2) == 1;
+  return (num % 2) === 1;
 }
 
 function elevarAlCuadrado(num) {
@@ -168,7 +168,7 @@ function esPositivo(numero) {
   } else if (numero < 0){
     return ("Es negativo")
   } else {
-    return false
+    return false;
   }
 }
 
