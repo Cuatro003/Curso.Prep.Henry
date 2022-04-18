@@ -99,7 +99,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var maximo = Math.max(numeros)
+  var maximo = Math.max.apply(null, numeros);
   return maximo;
 }
 
