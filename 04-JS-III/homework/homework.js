@@ -114,7 +114,7 @@ function multiplicarArgumentos() {
   } else if(arguments.length === 1){
     return arguments[0];
   }else{
-    for (var i = 0; i < arguments.length; i++){
+    for (var i = 0; i < arguments.length ; i++){
          acuMulti = acuMulti * arguments[i]
     }
   }
@@ -125,13 +125,13 @@ function multiplicarArgumentos() {
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  var mas18 = 0;
-  for (var i = 0; i < arreglo.lengt; i++){
+  var acumulador = 0;
+  for (var i = 0; i < arreglo.lengt ; i++){
     if (arreglo[i] > 18){
-    mas18 += 1
+    acumulador += 1
     }
   }
-  return mas18;
+  return acumulador;
 }
 
 
