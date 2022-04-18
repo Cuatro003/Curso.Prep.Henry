@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { suma } = require("../../02-JS-I/homework/homework");
+
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
@@ -209,6 +211,21 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var nuevoArraySuma = [];
+  suma = numero;
+  for(let i = 0 ; i < 10 ; i++){
+    suma = suma + 2;
+    if( suma === i){
+      break;
+    }else{
+      nuevoArraySuma.push(suma);
+    }
+  }
+  if(nuevoArraySuma.length < 10){
+    return "Se interrumpió la ejecución"
+  }else if (nuevoArraySuma.length === 10){
+    return nuevoArraySuma;
+  }
 }
 
 
